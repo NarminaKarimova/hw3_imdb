@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
-import Movies from "./Movies";
-import Contact from "./Contact";
+import Movies from "./components/Movies";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -12,8 +12,8 @@ export default function App() {
 
       <Routes>
         <Route path="/" element=<Home /> />
-        <Route path="/product" element=<Movies /> />
-        <Route path="/about" element=<Contact /> />
+        <Route path="/movies" element=<Movies /> />
+        <Route path="/contact" element=<Contact /> />
       </Routes>
     </>
   );
