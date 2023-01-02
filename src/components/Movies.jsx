@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react'
 function Movies() {
   const [Movies, fetchMovies] = useState([])
@@ -8,30 +9,20 @@ function Movies() {
         fetchMovies(res)
         console.log(res);
       })
+      .catch(err => {
+        console.error(err);
+      })
   }, []);
   return (
     <div className="container">
       <h1>Reactjs Fetch Api Data from Json Server</h1>
 
-      <table className="table">
-        <thead>
-          <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-          </tr>
-        </thead>
-        <tbody>
-          {Movies.map((item, i) => {
-            return <tr>
-              <td>{item.id}</td>
-              <td>{item.Series_Title}</td>
-            </tr>
-          })}
-          <tr>
+      {Movies.map((item, index) => {
+        return (
+          <img src={item.Poster_Link}></img>
+        )
 
-          </tr>
-        </tbody>
-      </table>
+      })}
     </div>
   )
 }
