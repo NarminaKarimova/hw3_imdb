@@ -1,45 +1,51 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Movie from "./Movie"
+import Pagination from "./Pagination"
 import React, { useEffect, useState } from 'react'
-function Movies() {
-  const [Movies, fetchMovies] = useState([])
+
+const Movies=()=> {
+  const [Movies1, fetchMovies] = useState([])
+  const [loading,setLoading]=useState(false);
+  const [currentPage,SetCurrentPage]=useState(1);
+  const [moviesPerpage]=useState(35);
   useEffect(() => {
     fetch('http://localhost:3500/movie_data')
       .then((res) => res.json())
       .then((res) => {
+        setLoading(true)
         fetchMovies(res)
+        setLoading(false)
         console.log(res);
       })
       .catch(err => {
-        console.error(err);
+        console.log(err);
       })
   }, []);
+
+  // Get current posts
+  const indexOfLastPost=currentPage*moviesPerpage;
+  const indexOfFirstPost=indexOfLastPost-moviesPerpage;
+  const currentPosts=Movies1.slice(indexOfFirstPost,indexOfLastPost)
+
+  // Change page
+  const paginate = pgNumber => SetCurrentPage(pgNumber);
+
+
+
   return (
-    <div className="data">
-      <h1>Movies</h1>
+    <div>
 
-      {Movies.map((item) => {
-        return (
-          <div className='p-4 d-inline-block justify-content-evenly container' style={{
-            width: 400
-          }}>
+    <h1>Movies</h1>
 
-            <div className='card' style={{ width: '18rem', padding: 10 }} key={item.id}>
-              <img src={item.Poster_Link} className='card-img-top'></img>
-              <div className="card-body">
-                <h5 className='card-title'>{item.Series_Title}</h5>
-              </div>
-              <span className="genre">
-                <h6>{item.Genre}</h6>
-              </span>
-              <span className="rating">{item.IMDB_Rating}</span>
-            </div>
-          </div>
-
-        )
-
-      })}
+    <Movie posts={currentPosts} loading={loading} />
+    <Pagination
+        postsPerPage={moviesPerpage}
+        totalPosts={Movies1.length}
+        paginate={paginate}
+      />
     </div>
-  )
+
+    )
 }
 export default Movies;
