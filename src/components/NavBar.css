@@ -1,22 +1,37 @@
 nav {
-  background-color: #B5D5C5;
+  background-color: #FFF5DB;
   padding: 25px 100px;
 }
 
-nav > a {
+nav>a {
   margin: 3;
   padding: 25px 100px;
   font-weight: bold;
+  color: #6063ad;
 }
 
-nav > a.active {
+nav>a:hover {
+  color: #6063ad;
+}
+
+nav>a.active {
   background-color: azure;
   text-decoration: none;
   font-size: 1.2rem;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #6063ad;
 }
-.imdb{
-  margin: 3;
+
+.imdb {
+  margin: 10px;
   padding: 15px 100px;
   font-weight: bold;
   font-size: x-large;
+  color: #6063ad;
+}
+
+.links {
+  font-size: 20px;
+  color: #9094e6
 }
