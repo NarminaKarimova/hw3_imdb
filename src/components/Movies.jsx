@@ -34,7 +34,7 @@ function Movies() {
 
   return (
     <div>
-      <h1>Movies</h1>
+      <h1 style={{textAlign:'center'}}>Movies</h1>
       <Movie posts={currentPosts} loading={loading} />
       <Pagination
         postsPerPage={moviesPerpage}

@@ -21,17 +21,20 @@ export default function DetailedInfo() {
     return (
         <div>
 
-            <div className="movie_card" id="bright">
-                <div className="info_section">
-                    <div className="movie_header">
-                        <img className="locandina" src={MovieDetails.Poster_Link} />
+            <div className="movie-card" id="bright">
+                <div className="details">
+                    <div className="header">
+                        <img className="poster" src={MovieDetails.Poster_Link} />
                         <h1>{MovieDetails.Series_Title}</h1>
                         <h4>{MovieDetails.Released_Year}, {MovieDetails.Director}</h4>
-                        <span className="minutes">{MovieDetails.Runtime}</span>
-                        <p className="type">{MovieDetails.Genre}</p>
+                        <h5>{MovieDetails.Star1}, {MovieDetails.Star2}
+                        <br /> {MovieDetails.Star3}, {MovieDetails.Star4}</h5>
+                     
+                        <span className="time">{MovieDetails.Runtime}</span>
+                        <p className="genre">{MovieDetails.Genre}</p>
                     </div>
-                    <div className="movie_desc">
-                        <p className="text">
+                    <div className="description">
+                        <p className="overview">
                             {MovieDetails.Overview}
                         </p>
                     </div>

@@ -14,19 +14,17 @@ const Movie = ({ posts, loading }) => {
             width: 200
           }}>
 
-            <div className='card' style={{ width: '10rem', padding: 10 }} key={item.id}>
+            <div className='card' style={{ width: '14rem', padding: 10, height:'440px' }} key={item.id}>
               <img src={item.Poster_Link} className='card-img-top' alt='poster'></img>
               <div className="card-body">
-                <h5 className='card-title'>{item.Series_Title}</h5>
-              </div>
-              <div className="genre">
-                <h6>{item.Genre}</h6>
-              </div>
-              <div className="rating">{item.IMDB_Rating}</div>
-              <div>
-                <Link className="movie-item" to={`/movie_data/${item.id}`} >
+                <h6 className='card-title' style={{fontWeight:'bold', color:"#6063ad", fontSize:"20px"}}>{item.Series_Title}</h6>
+            
+              <div className="rating" style={{color:"#6063ad", fontSize:"17px"}}>🖤 {item.IMDB_Rating} </div>
+              <Link className="movie-item" to={`/movie_data/${item.id}`} >
                   More Info
                 </Link>
+              </div>
+              <div>
               </div>
             </div>
 
