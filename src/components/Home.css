@@ -15,7 +15,7 @@
 
 }
 
-.responsive-card{
+.responsive-card {
   min-height: 75px;
   height: fit-content;
   width: 100%;
@@ -81,10 +81,13 @@
   background-color: #89C4E1;
   margin-bottom: 50px;
   border-radius: 20px;
+  transition: all 0.5s ease;
   /* backdrop-filter: invert(50%); */
 }
+
 .card:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .name {
@@ -112,7 +115,7 @@
   margin-left: 0px;
 }
 
-.info{
+.info {
   color: #8083d7;
   font-size: 18px;
   line-height: 27px;
@@ -145,7 +148,7 @@
   background-color: #C2E8F6
 }
 
-.image{
+.image {
   clip-path: circle(45% at 50% 50%);
 
 }
@@ -182,7 +185,8 @@
     padding-left: 20px;
   }
 }
-.movie-item{
+
+.movie-item {
   color: #6063ad;
   font-size: 15px;
   /* margin-top: 0px;
@@ -191,7 +195,7 @@
   margin-left: 0px; */
 }
 
-.movie-item:hover{
+.movie-item:hover {
   color: #2a2b50;
   font-size: 20px;
 }
