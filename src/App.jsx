@@ -13,7 +13,6 @@ export default function App() {
 
       <Routes>
         <Route path="/" element=<Home /> />
-        <Route path="/*" element=<Home /> />
         <Route path="/movie_data" element=<Movies /> />
         <Route path="/contact" element=<Contact /> />
         <Route path="/movie_data/:id" element=<DetailedInfo /> />
