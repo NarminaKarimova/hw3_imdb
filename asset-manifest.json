@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hw3_imdb/static/css/main.de985b32.css",
+    "main.js": "/hw3_imdb/static/js/main.c82ef689.js",
+    "static/media/Narmina.png": "/hw3_imdb/static/media/Narmina.8799afac1bc9819ae517.png",
+    "static/media/Nurhan.png": "/hw3_imdb/static/media/Nurhan.6d666328e92fe1d24449.png",
+    "static/media/Atlas.jpg": "/hw3_imdb/static/media/Atlas.30db27b8548820d74cd0.jpg",
+    "index.html": "/hw3_imdb/index.html",
+    "main.de985b32.css.map": "/hw3_imdb/static/css/main.de985b32.css.map",
+    "main.c82ef689.js.map": "/hw3_imdb/static/js/main.c82ef689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de985b32.css",
+    "static/js/main.c82ef689.js"
+  ]
+}
