@@ -38,12 +38,14 @@ export default function Home() {
                         </p>
                         <p className="blok info">Eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of problems and training in programming. Motivated to learn.
                         </p>
-                        <h5>Projects</h5>
-                        <div className="projects"><ol>
-                          <li>Digital Card</li>
-                          <li>Weather Teller App</li>
-                          <li>IMDB app</li>
-                        </ol></div>
+                       <br />
+                       <div className="projects">Projects</div>
+                          <a  href="https://atlashamzali.github.io/hw1/indexhw1.html" target="_blank"> Digital Card</a>
+                          <br />
+                          <a  href="https://atlashamzali.github.io/atlashamzalii.github.io/assignment2/" target="_blank"> Weather Teller App</a>
+                          <br />
+                          <a  href="" target="_blank"> IMDB app</a>
+                          <br />
                       </div>
                     </div>
                   </div>
@@ -59,6 +61,14 @@ export default function Home() {
                         </p>
                         <p className="blok info">Nothing much, besides my major in technical field, I am currenly taking a second career path in Business Administration.Trying myself in different fields: from learning UI/UX design to playing a guitar and crocheting.
                         </p>
+                        <br />
+                        <div className="projects">Projects</div>
+                          <a  href="https://narminakarimova.github.io/Portfolio/profile.html" target="_blank"> Digital Card</a>
+                          <br />
+                          <a  href="https://narminakarimova.github.io/Portfolio/weather.html" target="_blank"> Weather Teller App</a>
+                          <br />
+                          <a  href="" target="_blank"> IMDB app</a>
+                          <br />
                       </div>
                     </div>
                   </div>
@@ -74,6 +84,14 @@ export default function Home() {
                         </p>
                         <p className="blok info">Like to investigate my courses deeply. My passion is about Data Science. I am fond of swimming, walking, praying and smoking
                         </p>
+                        <br />
+                        <div className="projects">Projects</div>
+                          <a  href="https://nurhanaliyev6.github.io/My_personal_website/digital-card.html" target="_blank"> Digital Card</a>
+                          <br />
+                          <a  href="https://nurhanaliyev6.github.io/My_personal_website/weather.html" target="_blank"> Weather Teller App</a>
+                          <br />
+                          <a  href="" target="_blank"> IMDB app</a>
+                          <br />
                       </div>
                     </div>
                   </div>

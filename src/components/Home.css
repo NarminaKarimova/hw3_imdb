@@ -97,10 +97,13 @@
   margin-left: 0px;
   line-height: 27px;
   color: #6063ad;
+  text-decoration: none;
+
 }
 
 .name:hover {
   color: #9094e6;
+  text-decoration: none;
 }
 
 .year {
@@ -114,7 +117,7 @@
 }
 
 .info {
-  color: #8083d7;
+  color: #6063bc;
   font-size: 13px;
   line-height: 17px;
 }
@@ -127,9 +130,22 @@
   padding-left: 50px;
 }
 .projects{
-  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(43, 44, 93);
+  font-weight: bold;
+}
+
+a{
   margin-top: 3px;
-  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  color:#424477 ;
+  font-weight: bold;
+}
+a:hover{
+  color: rgb(43, 44, 93);
 }
 .container-block {
   min-height: 75px;
@@ -151,7 +167,7 @@
 }
 
 .image {
-  clip-path: circle(38% at 50% 50%);
+  clip-path: circle(45% at 50% 50%);
 
 }
 
