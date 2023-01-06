@@ -38,14 +38,14 @@ export default function Home() {
                         </p>
                         <p className="blok info">Eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of problems and training in programming. Motivated to learn.
                         </p>
-                       <br />
-                       <div className="projects">Projects</div>
-                          <a  href="https://atlashamzali.github.io/hw1/indexhw1.html" target="_blank"> Digital Card</a>
-                          <br />
-                          <a  href="https://atlashamzali.github.io/atlashamzalii.github.io/assignment2/" target="_blank"> Weather Teller App</a>
-                          <br />
-                          <a  href="" target="_blank"> IMDB app</a>
-                          <br />
+                        <br />
+                        <div className="projects">Projects</div>
+                        <a href="https://atlashamzali.github.io/hw1/indexhw1.html" target="_blank"> Digital Card</a>
+                        <br />
+                        <a href="https://atlashamzali.github.io/atlashamzalii.github.io/assignment2/" target="_blank"> Weather Teller App</a>
+                        <br />
+                        <a href="https://narminakarimova.github.io/hw3_imdb/" target="_blank"> IMDB app</a>
+                        <br />
                       </div>
                     </div>
                   </div>
@@ -63,12 +63,12 @@ export default function Home() {
                         </p>
                         <br />
                         <div className="projects">Projects</div>
-                          <a  href="https://narminakarimova.github.io/Portfolio/profile.html" target="_blank"> Digital Card</a>
-                          <br />
-                          <a  href="https://narminakarimova.github.io/Portfolio/weather.html" target="_blank"> Weather Teller App</a>
-                          <br />
-                          <a  href="" target="_blank"> IMDB app</a>
-                          <br />
+                        <a href="https://narminakarimova.github.io/Portfolio/profile.html" target="_blank"> Digital Card</a>
+                        <br />
+                        <a href="https://narminakarimova.github.io/Portfolio/weather.html" target="_blank"> Weather Teller App</a>
+                        <br />
+                        <a href="https://narminakarimova.github.io/hw3_imdb/" target="_blank"> IMDB app</a>
+                        <br />
                       </div>
                     </div>
                   </div>
@@ -86,12 +86,12 @@ export default function Home() {
                         </p>
                         <br />
                         <div className="projects">Projects</div>
-                          <a  href="https://nurhanaliyev6.github.io/My_personal_website/digital-card.html" target="_blank"> Digital Card</a>
-                          <br />
-                          <a  href="https://nurhanaliyev6.github.io/My_personal_website/weather.html" target="_blank"> Weather Teller App</a>
-                          <br />
-                          <a  href="" target="_blank"> IMDB app</a>
-                          <br />
+                        <a href="https://nurhanaliyev6.github.io/My_personal_website/digital-card.html" target="_blank"> Digital Card</a>
+                        <br />
+                        <a href="https://nurhanaliyev6.github.io/My_personal_website/weather.html" target="_blank"> Weather Teller App</a>
+                        <br />
+                        <a href="https://narminakarimova.github.io/hw3_imdb/" target="_blank"> IMDB app</a>
+                        <br />
                       </div>
                     </div>
                   </div>
