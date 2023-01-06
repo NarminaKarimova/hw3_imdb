@@ -82,12 +82,10 @@
   margin-bottom: 50px;
   border-radius: 20px;
   transition: all 0.5s ease;
-  /* backdrop-filter: invert(50%); */
 }
 
 .card:hover {
   transform: scale(1.2);
-  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .name {
@@ -117,8 +115,8 @@
 
 .info {
   color: #8083d7;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 13px;
+  line-height: 17px;
 }
 
 .outer-container {
@@ -128,7 +126,11 @@
   padding-bottom: 0px;
   padding-left: 50px;
 }
-
+.projects{
+  text-align: left;
+  margin-top: 3px;
+  font-size: 12px;
+}
 .container-block {
   min-height: 75px;
   height: fit-content;
@@ -149,7 +151,7 @@
 }
 
 .image {
-  clip-path: circle(45% at 50% 50%);
+  clip-path: circle(38% at 50% 50%);
 
 }
 

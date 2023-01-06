@@ -10,7 +10,7 @@ function Movies() {
   const [moviesPerpage] = useState(35);
 
   useEffect(() => {
-    fetch('http://localhost:3500/movie_data')
+    fetch('http://localhost:3000/movie_data')
       .then((res) => res.json())
       .then((res) => {
         fetchMovies(res)

@@ -8,7 +8,7 @@ export default function DetailedInfo() {
     const { id } = useParams();
     useEffect(() => {
 
-        fetch(`http://localhost:3500/movie_data/${id}`)
+        fetch(`http://localhost:3000/movie_data/${id}`)
             .then((res) => res.json())
             .then((res) => {
                 fetchMovieDetails(res)

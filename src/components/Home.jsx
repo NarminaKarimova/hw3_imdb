@@ -38,6 +38,12 @@ export default function Home() {
                         </p>
                         <p className="blok info">Eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of problems and training in programming. Motivated to learn.
                         </p>
+                        <h5>Projects</h5>
+                        <div className="projects"><ol>
+                          <li>Digital Card</li>
+                          <li>Weather Teller App</li>
+                          <li>IMDB app</li>
+                        </ol></div>
                       </div>
                     </div>
                   </div>
